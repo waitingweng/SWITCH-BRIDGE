@@ -1,0 +1,116 @@
+format--
+directory:
+    file:
+        code: generated files
+
+
+datasets:
+    Cell:
+    
+
+
+code:
+    csv_to_anndata: counts (combine 14 files)
+    add_annotations: annotated
+    qc: raw
+    data_transformation_harmony_clustering: normalized, log1p, hvgs, clipped, pca, batch_effect_removed_harmony, leiden 
+    cell_type_annotation: cell_type_classified_counts, cell_type_classified_log_data, cell_type_classified
+    
+    NE_reclustering (we suppose all cancerous cells are NE cells, so we isolate NE cells to recluster for stages annotation): NE_counts
+    scVI (only takes counts as input, output normalized data): scvi_model_15, NE_reclustered (X: counts, layers['scvi_normalized']: normalized_counts)
+    cancer_stages_classification: NE_normalized_stages.csv, NE_cluster_stages.csv
+    discrete_cancer_stages_annotation: discrete_cancer_stages_annotated
+    pcc: discrete_cancer_stages, pcc_4S.csv, pcc_I.csv, pcc_III.csv, pcc_IV.csv
+    deg_calculation: deg_4S_I.csv, deg_4S_III.csv, deg_4S_IV.csv, deg_I_III.csv, deg_I_IV.csv, deg_III_IV.csv
+    degs: deg_I_4S.txt, deg_III_4S.txt, deg_IV_4S.txt, deg_III_I.txt, deg_IV_I.txt, deg_IV_III.txt, deg_2.txt, deg_2.5.txt
+    
+    continuous_cancer_stages_annotation: continuous_cancer_stages_annotated
+    trajectory_inference: 
+
+    tutorial: 
+
+parameter_tuning:
+    PCC-SWITCH:
+        pcc_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json
+
+    Binary-SWITCH:
+        pcc_to_distance: distance_4S.csv, distance_I.csv, distance_III.csv, distance_IV.csv
+        distance_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json
+
+    Linear-SWITCH:
+        pcc_to_distance: distance_4S.csv, distance_I.csv, distance_III.csv, distance_IV.csv
+        distance_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json      
+
+    Nlog-SWITCH:
+        pcc_to_distance: distance_4S.csv, distance_I.csv, distance_III.csv, distance_IV.csv
+        distance_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json      
+
+    Reciprocal-SWITCH:
+        pcc_to_distance: distance_4S.csv, distance_I.csv, distance_III.csv, distance_IV.csv
+        distance_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json      
+
+    PCC-Leiden (the control group):
+        pcc_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json
+
+    hdWGCNA (run in R):
+        anndata_to_seurat: discrete_cancer_stages_annotated.rds
+        hdWGCNA: module_4S.csv, module_I.csv, module_III.csv, module_IV.csv
+        hdWGCNA_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json
+
+    Hotspot:
+        hotspot: hotspot_object_4S.pkl, hotspot_object_I.pkl, hotspot_object_III.pkl, hotspot_object_IV.pkl
+        hotspot_to_module: module_4S.json, module_I.json, module_III.json, module_IV.json
+
+
+pathway_relevance:
+    KEGG:
+    Reactome:
+    BioPlex:
+    WikiPathway:
+
+
+algorithm_comparison:
+    module_ratio:
+    module_ratio_boxplot:
+    enrichment: 
+    correctly_assigned_gene_ratio: 
+    enrichment_ratio_boxplot: 
+    MDI_instability:
+    intrastage_reproducibility:
+    intrastage_ARI:
+    intrastage_ARI_boxplot:
+    intrastage_AMI:
+    intrastage_AMI_boxplot:
+    KEGG_relevance:
+    Reactome_relevance:
+    BioPlex_relevance:
+    WikiPathway_relevance:
+    relevance_boxplot:    
+    
+
+transition_set:
+    hypergeometric_test: module_4S_vs_III_relation.graphml, module_4S_vs_I_relation.graphml, module_4S_vs_IV_relation.graphml, module_III_vs_IV_relation.graphml, module_I_vs_III_relation.graphml, module_I_vs_IV_relation.graphml
+    MDI: stage_direction.graphml
+    find_transition_set: transitional_set_4S_vs_I.csv, transitional_set_4S_vs_III.csv, transitional_set_4S_vs_IV.csv, transitional_set_I_vs_III.csv, transitional_set_I_vs_IV.csv, transitional_set_III_vs_IV.csv
+    target_genes: target_genes.json
+    targets_corresponding_modules: 
+    visualize_a_module: 
+
+
+topomodulators_evaluation:
+    curated_set (too small to be useful):
+    hypergeometric_test_curated_set (not useful):
+    hypergeometric_test_R2:
+    topomodulators_deg_difference:
+
+
+
+
+drug_creening (leaved out from the paper):
+    proximity: I_to_4S_-1.96_drugs.txt, III_to_4S_-1.96_drugs.txt, IV_to_4S_-1.96_drugs.txt, III_to_I_-1.96_drugs.txt, IV_to_I_-1.96_drugs.txt, IV_to_III_-1.96_drugs.txt
+    id_to_drugname: I_to_4S.csv, III_to_4S.csv, IV_to_4S.csv, III_to_I.csv, IV_to_I.csv, IV_to_III.csv
+
+
+
+
+

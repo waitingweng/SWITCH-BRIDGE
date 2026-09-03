@@ -1,0 +1,31 @@
+#Program: R2: Genomics analysis and visualization platform
+#Website: https://r2.amc.nl
+#Support: r2-support@amsterdamumc.nl
+#Date: 2025-04-17 (05:09:29)
+#Dataset: ps_avgpres_nbadam88_u133p2
+#Kaplan_modus: median
+#Minimal presentcalls: 1
+#Multiple_testing: fdr 0.05
+#Result_set (passed/total): 19/50
+#Survival: overall-c1103
+#filter: manual gene selection (0)
+#H:probeset	hugo	pvalue	express	sublist
+227761_at	MYO5A	1.331355e-10	423.6	low
+208605_s_at	NTRK1	1.0139175e-08	129.6	low
+212805_at	PRUNE2	7.31535e-07	369.6	low
+201746_at	TP53	1.76255e-06	141.3	high
+226213_at	ERBB3	2.41214e-06	3.3	low
+209757_s_at	MYCN	6.43195833333333e-06	3475.9	high
+211342_x_at	MED12	7.09415e-06	111.4	high
+1554576_a_at	ETV4	3.79353125e-05	16.7	high
+206343_s_at	NRG1	7.02977777777778e-05	56.2	low
+201184_s_at	CHD4	0.000334526	476.2	high
+226391_at	BRAF	0.000524795454545455	240.7	low
+231984_at	MTAP	0.00156632083333333	75.7	high
+213523_at	CCNE1	0.00305915769230769	79.7	high
+204009_s_at	KRAS	0.00820371428571429	746.1	low
+225363_at	PTEN	0.0095196	896.7	low
+219444_at	BCORL1	0.01354690625	120.4	high
+229902_at	FLT4	0.0234123235294118	41.8	high
+211421_s_at	RET	0.0345811111111111	218	high
+226201_at	DOT1L	0.0438178947368421	95.2	high

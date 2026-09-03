@@ -1,0 +1,11 @@
+*.csv
+
+*.h5ad
+*.h5
+*.rds
+*.rda
+*.feather
+*.pkl
+*.gz
+drug_screening/full_database.xml
+*.pt

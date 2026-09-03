@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">module_4S_blue</data>
+      <data key="v_size">279</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">module_IV_greenyellow</data>
+      <data key="v_size">67</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">module_IV_lightblue4</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">module_IV_blue4</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">module_4S_black</data>
+      <data key="v_size">101</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">module_IV_lightsteelblue1</data>
+      <data key="v_size">20</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">module_IV_lightpink4</data>
+      <data key="v_size">15</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">module_4S_red</data>
+      <data key="v_size">115</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">module_IV_midnightblue</data>
+      <data key="v_size">54</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">module_IV_plum2</data>
+      <data key="v_size">17</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">module_IV_darkturquoise</data>
+      <data key="v_size">30</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">module_4S_green</data>
+      <data key="v_size">124</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">module_IV_turquoise</data>
+      <data key="v_size">302</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">module_IV_green</data>
+      <data key="v_size">157</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">module_4S_yellow</data>
+      <data key="v_size">126</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">module_IV_lavenderblush3</data>
+      <data key="v_size">15</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">module_IV_grey60</data>
+      <data key="v_size">42</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">module_IV_orangered4</data>
+      <data key="v_size">21</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">module_4S_yellowgreen</data>
+      <data key="v_size">15</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">module_4S_greenyellow</data>
+      <data key="v_size">56</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">module_IV_magenta</data>
+      <data key="v_size">86</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">module_IV_darkorange</data>
+      <data key="v_size">27</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">module_4S_turquoise</data>
+      <data key="v_size">390</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">module_IV_blue</data>
+      <data key="v_size">257</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">module_IV_darkorange2</data>
+      <data key="v_size">18</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">module_IV_tan</data>
+      <data key="v_size">62</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">module_IV_plum1</data>
+      <data key="v_size">21</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">module_IV_white</data>
+      <data key="v_size">26</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">module_IV_floralwhite</data>
+      <data key="v_size">18</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">module_IV_blueviolet</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">module_4S_darkgrey</data>
+      <data key="v_size">25</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">module_IV_saddlebrown</data>
+      <data key="v_size">26</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">module_4S_paleturquoise</data>
+      <data key="v_size">17</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">module_4S_purple</data>
+      <data key="v_size">68</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">module_IV_salmon</data>
+      <data key="v_size">58</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">module_IV_orange</data>
+      <data key="v_size">29</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">module_4S_midnightblue</data>
+      <data key="v_size">39</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">module_4S_brown</data>
+      <data key="v_size">187</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">module_IV_red</data>
+      <data key="v_size">105</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">module_IV_thistle1</data>
+      <data key="v_size">16</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">module_IV_lightgreen</data>
+      <data key="v_size">39</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">module_IV_darkgrey</data>
+      <data key="v_size">29</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">module_4S_tan</data>
+      <data key="v_size">48</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">module_IV_violet</data>
+      <data key="v_size">24</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">module_IV_pink3</data>
+      <data key="v_size">4</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">module_4S_darkgreen</data>
+      <data key="v_size">27</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">module_IV_brown</data>
+      <data key="v_size">168</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">module_4S_darkred</data>
+      <data key="v_size">28</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">module_IV_steelblue</data>
+      <data key="v_size">25</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">module_4S_magenta</data>
+      <data key="v_size">76</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">module_IV_purple</data>
+      <data key="v_size">85</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">module_IV_yellow</data>
+      <data key="v_size">158</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">module_IV_pink</data>
+      <data key="v_size">89</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">module_IV_indianred3</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">module_4S_violet</data>
+      <data key="v_size">16</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">module_4S_lightcyan</data>
+      <data key="v_size">33</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">module_4S_navajowhite2</data>
+      <data key="v_size">9</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">module_IV_navajowhite</data>
+      <data key="v_size">5</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">module_4S_mediumpurple2</data>
+      <data key="v_size">8</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">module_4S_grey60</data>
+      <data key="v_size">33</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">module_4S_darkmagenta</data>
+      <data key="v_size">15</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">module_4S_darkviolet</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">module_4S_blue2</data>
+      <data key="v_size">6</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">module_IV_ivory</data>
+      <data key="v_size">19</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">module_4S_steelblue</data>
+      <data key="v_size">19</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">module_4S_mediumorchid</data>
+      <data key="v_size">8</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">module_4S_brown2</data>
+      <data key="v_size">7</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">module_4S_skyblue</data>
+      <data key="v_size">21</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">0.226950354609929</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_weight">0.0178571428571429</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_weight">0.0142348754448399</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">0.0431034482758621</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">0.0357142857142857</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_weight">0.0368098159509202</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_weight">0.03125</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_weight">0.0357142857142857</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_weight">0.0415647921760391</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_weight">0.0407407407407407</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_weight">0.0291970802919708</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="e_weight">0.037037037037037</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="e_weight">0.0352112676056338</data>
+    </edge>
+    <edge source="n13" target="n18">
+      <data key="e_weight">0.0238095238095238</data>
+    </edge>
+    <edge source="n12" target="n19">
+      <data key="e_weight">0.0199430199430199</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_weight">0.0289855072463768</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_weight">0.121621621621622</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_weight">0.0520325203252033</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="e_weight">0.0124069478908189</data>
+    </edge>
+    <edge source="n22" target="n25">
+      <data key="e_weight">0.018018018018018</data>
+    </edge>
+    <edge source="n22" target="n26">
+      <data key="e_weight">0.0148148148148148</data>
+    </edge>
+    <edge source="n22" target="n27">
+      <data key="e_weight">0.0171149144254279</data>
+    </edge>
+    <edge source="n16" target="n22">
+      <data key="e_weight">0.0334928229665072</data>
+    </edge>
+    <edge source="n22" target="n28">
+      <data key="e_weight">0.0251256281407035</data>
+    </edge>
+    <edge source="n22" target="n29">
+      <data key="e_weight">0.0127877237851662</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_weight">0.307692307692308</data>
+    </edge>
+    <edge source="n23" target="n32">
+      <data key="e_weight">0.0185873605947955</data>
+    </edge>
+    <edge source="n33" target="n34">
+      <data key="e_weight">0.0327868852459016</data>
+    </edge>
+    <edge source="n5" target="n33">
+      <data key="e_weight">0.0476190476190476</data>
+    </edge>
+    <edge source="n33" target="n35">
+      <data key="e_weight">0.043010752688172</data>
+    </edge>
+    <edge source="n12" target="n36">
+      <data key="e_weight">0.0209580838323353</data>
+    </edge>
+    <edge source="n12" target="n37">
+      <data key="e_weight">0.0723684210526316</data>
+    </edge>
+    <edge source="n20" target="n37">
+      <data key="e_weight">0.030188679245283</data>
+    </edge>
+    <edge source="n37" target="n38">
+      <data key="e_weight">0.0814814814814815</data>
+    </edge>
+    <edge source="n37" target="n39">
+      <data key="e_weight">0.0252525252525253</data>
+    </edge>
+    <edge source="n13" target="n37">
+      <data key="e_weight">0.0487804878048781</data>
+    </edge>
+    <edge source="n37" target="n40">
+      <data key="e_weight">0.0610328638497653</data>
+    </edge>
+    <edge source="n37" target="n41">
+      <data key="e_weight">0.0188679245283019</data>
+    </edge>
+    <edge source="n42" target="n43">
+      <data key="e_weight">0.0909090909090909</data>
+    </edge>
+    <edge source="n42" target="n44">
+      <data key="e_weight">0.0833333333333333</data>
+    </edge>
+    <edge source="n45" target="n46">
+      <data key="e_weight">0.153846153846154</data>
+    </edge>
+    <edge source="n47" target="n48">
+      <data key="e_weight">0.204545454545455</data>
+    </edge>
+    <edge source="n49" target="n50">
+      <data key="e_weight">0.032051282051282</data>
+    </edge>
+    <edge source="n49" target="n51">
+      <data key="e_weight">0.0263157894736842</data>
+    </edge>
+    <edge source="n49" target="n52">
+      <data key="e_weight">0.0377358490566038</data>
+    </edge>
+    <edge source="n49" target="n53">
+      <data key="e_weight">0.0512820512820513</data>
+    </edge>
+    <edge source="n12" target="n54">
+      <data key="e_weight">0.0127388535031847</data>
+    </edge>
+    <edge source="n13" target="n55">
+      <data key="e_weight">0.043956043956044</data>
+    </edge>
+    <edge source="n56" target="n57">
+      <data key="e_weight">0.4</data>
+    </edge>
+    <edge source="n51" target="n58">
+      <data key="e_weight">0.0375</data>
+    </edge>
+    <edge source="n52" target="n59">
+      <data key="e_weight">0.173076923076923</data>
+    </edge>
+    <edge source="n38" target="n60">
+      <data key="e_weight">0.0526315789473684</data>
+    </edge>
+    <edge source="n51" target="n61">
+      <data key="e_weight">0.0379746835443038</data>
+    </edge>
+    <edge source="n62" target="n63">
+      <data key="e_weight">0.19047619047619</data>
+    </edge>
+    <edge source="n12" target="n64">
+      <data key="e_weight">0.019047619047619</data>
+    </edge>
+    <edge source="n51" target="n65">
+      <data key="e_weight">0.0506329113924051</data>
+    </edge>
+    <edge source="n12" target="n66">
+      <data key="e_weight">0.0131147540983607</data>
+    </edge>
+    <edge source="n46" target="n67">
+      <data key="e_weight">0.0271739130434783</data>
+    </edge>
+    <edge source="n51" target="n67">
+      <data key="e_weight">0.0228571428571429</data>
+    </edge>
+  </graph>
+</graphml>

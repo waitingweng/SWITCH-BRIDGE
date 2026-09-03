@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">module_ctrl_0</data>
+      <data key="v_size">5501</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">module_mild_1</data>
+      <data key="v_size">3469</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">module_ctrl_1</data>
+      <data key="v_size">4413</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">module_mild_0</data>
+      <data key="v_size">6527</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">module_ctrl_4</data>
+      <data key="v_size">1224</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">module_mild_6</data>
+      <data key="v_size">584</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">module_mild_15</data>
+      <data key="v_size">161</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">module_mild_24</data>
+      <data key="v_size">53</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">module_mild_43</data>
+      <data key="v_size">18</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">module_ctrl_8</data>
+      <data key="v_size">520</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">module_ctrl_14</data>
+      <data key="v_size">180</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">module_mild_2</data>
+      <data key="v_size">2196</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">module_ctrl_3</data>
+      <data key="v_size">1478</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">module_mild_4</data>
+      <data key="v_size">1239</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">module_ctrl_36</data>
+      <data key="v_size">29</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">module_ctrl_19</data>
+      <data key="v_size">115</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">module_mild_18</data>
+      <data key="v_size">104</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">module_ctrl_29</data>
+      <data key="v_size">44</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">module_mild_3</data>
+      <data key="v_size">1488</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">0.315635083602229</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_weight">0.434565958562811</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">0.126479750778816</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">0.0421369450714823</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_weight">0.0151033386327504</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_weight">0.00811688311688312</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_weight">0.0395480225988701</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_weight">0.0206185567010309</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">0.0995548360987455</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_weight">0.00542250338906462</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_weight">0.0330188679245283</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_weight">0.0125578321216127</data>
+    </edge>
+  </graph>
+</graphml>
